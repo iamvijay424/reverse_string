@@ -1,0 +1,6 @@
+def string(input_string):
+    input_string=input_string[::-1]
+    return input_string
+sample_string=input('enter the string:')
+reversed_string=string(sample_string)
+print('output:',reversed_string)
